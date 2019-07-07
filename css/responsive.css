@@ -1,0 +1,94 @@
+@media screen and (max-width: 800px){
+  body{
+    height: 3100px;
+  }
+  section{
+    width: 600px;
+    height: 3000px;
+    flex-direction: column;
+    align-items: center;  
+  }
+  section .leftDiv {
+    width: 470px;
+    height: 1465px;
+  }
+  .leftDiv .avatar {
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 310px;
+    transition: 200ms;
+  }
+  .leftDiv .avatar img {
+    width: 300px;
+    height: 300px;
+  }
+  .leftDiv .rotateDiv {
+    width: 225px;
+    height: 500px;
+    
+  }
+}
+
+@media screen and (max-width: 480px){
+  body{
+    height: 3100px;
+  }
+  section{
+    width: 370px;
+    height: 3460px;
+    flex-direction: column;
+    align-items: center;  
+  }
+  section .leftDiv {
+    width: 95%;
+    height: 1510px;
+  }
+  .leftDiv .avatar {
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 310px;
+    transition: 200ms;
+  }
+  .leftDiv .avatar img {
+    width: 300px;
+    height: 300px;
+  }
+  .leftDiv .rotateDiv {
+    width: 160px;
+    height: 620px;
+    
+  }
+  section .rightDiv {
+    width: 95%;
+    height: 1830px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  body{
+    height: 3100px;
+  }
+  section{
+    width: 350px;
+    height: 3460px;
+    flex-direction: column;
+    align-items: center;  
+  }
+  section .rightDiv {
+    width: 95%;
+    height: 1865px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  section{
+    width: 350px;
+    height: 3500px;
+    flex-direction: column;
+    align-items: center;  
+  }
+  section .rightDiv {
+    width: 95%;
+    height: 1930px;
+  }
+}
