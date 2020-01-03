@@ -16,7 +16,7 @@ section {
     margin: 10px 0px;
     /* padding: 10px 10px; */
     width: 800px;
-    height: 1650px;
+    height: 1480px;
     background-color: #fff;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
     display: flex;
@@ -31,7 +31,7 @@ section {
 section .leftDiv {
     margin: 10px 10px;
     width: 300px;
-    height: 1500px;
+    height: 1440px;
     background-color: white;
     /* box-shadow: 0px 2px 5px rgba(0, 0, 0, .3); */
     display: flex;
@@ -45,9 +45,6 @@ section .leftDiv {
     margin-bottom: 1rem;
     width: 180px;
     height: 200px;
-    /* background-image: url("img/avatar.png"); */
-    /* background-size: cover;
-    background-position-x: -20px; */
     transition: 200ms;
 }
 
@@ -81,6 +78,7 @@ section .leftDiv {
 .leftDiv h6 {
     margin: 0px;
     color: rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
 }
 
 .leftDiv .info {
@@ -283,7 +281,7 @@ section .leftDiv {
 
 section .rightDiv {
     width: 470px;
-    height: 1550px;
+    height: 1390px;
     margin: 10px 0px;
     box-shadow: -2px 5px 7px rgba(0, 0, 0, .2);
 }

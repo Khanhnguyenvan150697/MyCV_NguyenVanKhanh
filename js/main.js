@@ -1,9 +1,9 @@
 $(document).ready(function() {
     //ProgressBar
-    $('.progressbar2_1').animate({ width: '60%' }, 1500);
-    $('.progressbar2_2').animate({ width: '65%' }, 1500);
+    $('.progressbar2_1').animate({ width: '55%' }, 1500);
+    $('.progressbar2_2').animate({ width: '80%' }, 1500);
     $('.progressbar2_3').animate({ width: '80%' }, 1500);
-    $('.progressbar2_4').animate({ width: '60%' }, 1500);
+    $('.progressbar2_4').animate({ width: '85%' }, 1500);
 
     $('.muctieunghenghiep #muctieunghenghiep').click(function() {
         $('.muctieunghenghiep .infottnn').slideToggle();
